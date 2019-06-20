@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&display=swap&subset=cyrillic');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffdc00;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+
+    .shop {
+        font-weight: 200;
+    }
+
+  .shop-name h3 {
+      color: #6f6f6f;
+      font-size: 20px;
+  }
+
+  .shop-number {
+      text-align: right;
+  }
+  .shop-number h3 {
+      font-size: 25px;
+  }
+
+  .button-call {
+    color: white;
+    text-decoration: none;
+    font-size: 22pt;
+    padding: 8px 20px;
+    outline: none;
+    
+    border: 0px;
+    border-radius:10px;
+    background: #6f6f6f;
+    margin-top: 8px;
+
+}
+
+.button-call:hover {
+    background: #6f6f6f;
+}
+
+.button-call:active {
+    background: #333333;
+}
+
+.intro {
+    background: url(../style/img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro-right {
+    text-align: center;
+}
+
+.intro h2 {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    line-height: 2;
+}
+
+.gift {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.timer {
+    margin: 20px 0px 20px 0px;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 35px;
+    margin: 30px;
+}
+
+.info-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: top;
+    align-content: center;
+    line-height: 3;
+}
+
+.info-item h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-item p {
+    font-weight: inherit
+}
+
+.img {
+    margin: 30px;
+}
+
+.info-buy-btn {
+    text-align: center;
+}
+
+.buy-reasons-header {
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    padding: 40px;
+}
+
+.buy-reasons-title {
+    color:#ffdc00;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.buy-reasons-text {
+    font-size: 14px;
+    font-weight: 80;
+}
+.buy-reasons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.jeep, .discount, .economy, .checked {
+    text-align: center;
+}
+
+.video {
+    height: 480px;
+    width: 720px;
+   display: flex;
+   margin: 0 auto;
+   border: 5px solid #ffdc00;
+   border-radius:5px;
+   margin-top: 50px;
+   }
+
+   .video-title {
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    padding: 40px;
+    }
