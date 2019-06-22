@@ -8,6 +8,7 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
 }
 .header {
     display:flex;
@@ -42,10 +43,12 @@ body {
     color: white;
     text-decoration: none;
     font-size: 22pt;
-    padding: 8px 20px;
+    padding: 10px 40px;
     outline: none;
+    cursor: pointer;
     
     border: 0px;
+    box-shadow: 0 -5px #353434 inset;
     border-radius:10px;
     background: #6f6f6f;
     margin-top: 8px;
@@ -73,6 +76,8 @@ body {
 
 .intro-right {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .intro h2 {
@@ -122,6 +127,7 @@ body {
 
 .info-buy-btn {
     text-align: center;
+    padding: 20px 0 20px 0;
 }
 
 .buy-reasons-header {
@@ -169,3 +175,162 @@ body {
     text-align: center;
     padding: 40px;
     }
+
+    .how-you-economy-title {
+        font-size: 35px;
+    text-align: center;
+    padding: 40px;
+    }
+
+    .how-you-economy-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+
+    .repair-text {
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .price-with-gift-text {
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .text-weight {
+        font-weight: 80;
+    }
+
+    .button-buy {
+    color: #333333;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 80px;
+    outline: none;
+    cursor: pointer;
+    
+    border: 0px;
+    box-shadow: 0 -5px rgb(167, 138, 86) inset;
+    transition: 0.4s;
+    border-radius:10px;
+    background: #ffdc00;
+    margin: 8px 0 8px 0;
+    }
+
+    .button-buy:hover {
+        background:#ffdc00;
+        color: white;
+    }
+    .button-buy:active {
+        background-color: rgb(167, 138, 86);
+        transition: 0.1s;
+    }
+    
+
+    .button-buy-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .reviews {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .reviews-title {
+        font-size: 35px;
+    text-align: center;
+    padding: 40px;
+    text-transform: uppercase;
+    }
+
+    .reviews-img {
+        border: 5px solid;
+        border-color: #ffdc00;
+        margin-right: 30px;
+    }
+
+    .reviews-text {
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .reviews-ava {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 500px;
+    }
+ .city-name {
+     opacity: 0.7;
+ }
+
+ .delivery-title {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     font-size: 30px;
+     padding: 40px;
+ }
+
+ .warranty-title {
+     padding:40px 0 40px;
+     font-size: 23px;
+ }
+
+ .warranty-list {
+        padding-left: 70px;
+    }
+
+    li {
+        padding-left: 20px;
+    }
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 40px;
+    }
+
+    .services-img {
+        text-align: center;
+    }
+
+    .services-title {
+        color: #ffdc00;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .delivery-info {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .delivery-head {
+        text-transform: uppercase;
+        font-weight: 800;
+        padding: 40px;
+    }
+
+    section h3 {
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    .yellow-letters {
+        color: #ffdc00;
+    }
+    
+ 
+    
