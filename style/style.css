@@ -9,6 +9,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 35px;
+    
 }
 .header {
     display:flex;
@@ -68,6 +69,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -75,9 +77,15 @@ body {
 }
 
 .intro-right {
-    text-align: center;
     display: flex;
+    flex-direction: column;
+    
+    
     justify-content: center;
+}
+
+.price-img {
+    width: 30%;
 }
 
 .intro h2 {
@@ -110,6 +118,10 @@ body {
     align-items: top;
     align-content: center;
     line-height: 3;
+}
+
+.info-item h3 {
+    line-height: 1;
 }
 
 .info-item h6 {
@@ -288,9 +300,6 @@ body {
         padding-left: 70px;
     }
 
-    li {
-        padding-left: 20px;
-    }
 
     .services {
         display: flex;
@@ -311,7 +320,9 @@ body {
 
     .delivery-info {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
     }
 
 
@@ -332,5 +343,19 @@ body {
         color: #ffdc00;
     }
     
- 
+    @media screen and (max-width: 600px) {
+        .video {
+            width: 480px;
+            height: 320px;
+        }
+    }
+    @media screen and (max-width: 400px) {
+        .video {
+            width: 320px;
+            height: 240px;
+        }
+        * {
+            
+        }
+    }
     
