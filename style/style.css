@@ -5,19 +5,25 @@
 * {
     padding: 0;
     margin: 0;
+    /*width: 100%;*/
 }
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 35px;
     
 }
+
+
+.yellow-letters, .text-yellow {
+    color: #ffdc00;
+}
+
 .header {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background: #ffdc00;
-    font-family: 'Montserrat', sans-serif;
     color: #333333;
     font-size: 30px;
     padding-top: 30px;
@@ -62,30 +68,30 @@ body {
 
 .button-call:active {
     background: #333333;
+    transition: 0.2s;
 }
 
 .intro {
     background: url(../style/img/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    
+    
 }
 
 .intro-right {
     display: flex;
     flex-direction: column;
-    
-    
     justify-content: center;
 }
 
 .price-img {
     width: 30%;
+    padding: 30px 0 30px 70px;
 }
 
 .intro h2 {
@@ -108,7 +114,8 @@ body {
 .info-title {
     text-align: center;
     font-size: 35px;
-    margin: 30px;
+    padding: 40px;
+    width: 100%;
 }
 
 .info-item {
@@ -122,6 +129,7 @@ body {
 
 .info-item h3 {
     line-height: 1;
+    text-align: center;
 }
 
 .info-item h6 {
@@ -241,7 +249,7 @@ body {
     }
     .button-buy:active {
         background-color: rgb(167, 138, 86);
-        transition: 0.1s;
+        transition: 0.2s;
     }
     
 
@@ -320,6 +328,7 @@ body {
 
     .delivery-info {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         width: 80%;
         margin: 0 auto;
@@ -339,23 +348,80 @@ body {
         font-weight: 800;
     }
 
-    .yellow-letters {
-        color: #ffdc00;
+    .daily-discount{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
+    .daily-discount h3 {
+        width: 100%;
+        padding: 40px;
+    }
+
+    /*.daily-discount-img {
+        display: flex;
+        flex-direction: column;
+    }*/
+    .daily-discount-img p {
+    font-size: 80px;        
+    padding: 20px;
+    font-weight: 700;
+    text-align: right;
+    }
+
+    .daily-discount-img  {
+        padding: 30px;
+    }
+
+    .input-container img, button {
+        margin: 20px 0 20px;
+        
+    }
+    .input {
+        border: 1px solid #333333;
+        border-radius: 5px;
+        border-style: outset;
+        height: 50px;
+        width: 100%;
+        margin: 20px 0 20px;
+    }
+
+    
+
     
     @media screen and (max-width: 600px) {
         .video {
             width: 480px;
             height: 320px;
         }
+        .intro, .header {
+            width: 600px;
+        }
+        .buy-reasons {
+            flex-direction: column;
+        }
     }
+   
     @media screen and (max-width: 400px) {
         .video {
             width: 320px;
             height: 240px;
         }
-        * {
+       /* body h1, h3, h6, p {
+            width: 100%;
+            text-align: center;
+        }*/
+        body { 
+             display: block;
+             width: 100%;
+             padding-left: 60px;
             
-        }
+         }
+         .intro, .header {
+             width: 420px;
+         }
+         .delivery-info ul {
+             padding: 20px;
+         }
     }
     
