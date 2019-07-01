@@ -285,7 +285,7 @@ body {
     .reviews-ava {
         display: flex;
         justify-content: flex-end;
-        padding-right: 500px;
+        /*padding-right: 500px;*/
     }
  .city-name {
      opacity: 0.7;
@@ -384,7 +384,7 @@ body {
         height: 50px;
         width: 100%;
         margin: 20px 0 20px;
-        
+        font-size: 25px;
     }
 
     
@@ -395,11 +395,29 @@ body {
             width: 480px;
             height: 320px;
         }
-        .intro, .header {
-            width: 600px;
+        body { 
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+           
         }
+        section {
+            padding-left: 60px;
+        }
+        
+        
         .buy-reasons {
             flex-direction: column;
+        }
+        .intro {
+            width: 100%;
+            padding: 0px;
+        }
+        .warranty-list {
+            padding: 0;
+        }
+        .reviews-ava {
+            padding-right: 0px;
         }
     }
    
@@ -413,16 +431,59 @@ body {
             text-align: center;
         }*/
         body { 
-             display: block;
-             width: 100%;
-             padding-left: 60px;
-            
-         }
-         .intro, .header {
-             width: 420px;
-         }
-         .delivery-info ul {
-             padding: 20px;
-         }
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+           
+        }
+        section {
+            padding-left: 60px;
+        }
+        
+        
+        .buy-reasons {
+            flex-direction: column;
+        }
+        .intro {
+            width: 100%;
+            padding: 0px;
+        }
+        .warranty-list {
+            padding: 0;
+        }
+        .reviews-ava {
+            padding-right: 0px;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .video {
+            width: 480px;
+            height: 320px;
+        }
+        body { 
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+           
+        }
+        section {
+            padding-right: 60px;
+        }
+        
+        
+        .buy-reasons {
+            flex-direction: column;
+        }
+        .intro {
+            width: 100%;
+            padding: 0px;
+        }
+        .warranty-list {
+            padding: 0;
+        }
+        .reviews-ava {
+            padding-right: 0px;
+        }
     }
     
