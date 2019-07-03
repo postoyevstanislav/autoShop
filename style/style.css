@@ -138,8 +138,13 @@ body {
 }
 
 .info-item p {
-    font-weight: inherit
+    font-weight: inherit;  
 }
+
+.info-item div {
+    flex-grow: 1;
+}
+
 
 .img {
     margin: 30px;
@@ -387,6 +392,7 @@ body {
         font-size: 25px;
     }
 
+   
     
 
     
