@@ -146,6 +146,9 @@ body {
     flex-basis: 300px;
 }
 
+.left-info {
+    padding-left: 20px;
+}
 
 .img {
     margin: 30px;
@@ -426,6 +429,9 @@ body {
         .reviews-ava {
             padding-right: 0px;
         }
+        ..left-info {
+            padding-left: 0;
+        }
     }
    
     @media screen and (max-width: 400px) {
@@ -461,9 +467,12 @@ body {
         .reviews-ava {
             padding-right: 0px;
         }
+        .left-info {
+            padding-left: 0;
+        }
     }
 
-    @media screen and (max-width: 800px) {
+   /* @media screen and (max-width: 800px) {
         .video {
             width: 480px;
             height: 320px;
@@ -492,5 +501,5 @@ body {
         .reviews-ava {
             padding-right: 0px;
         }
-    }
+    }*/
     
